@@ -59,9 +59,9 @@ $db_database = "mrbs";
 // multiple schemas.
 //$db_schema = "public";
 // Database login user name:
-$db_login = "root";
+$db_login = "jdsanjuan";
 // Database login password:
-$db_password = '';
+$db_password = 'jdsanjuan';
 // Prefix for table names.  This will allow multiple installations where only
 // one database is available
 $db_tbl_prefix = "mrbs_";

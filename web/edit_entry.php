@@ -189,7 +189,7 @@ function get_field_entry_input($params)
 
 function get_field_name($value, $disabled=false)
 {
-  $params = array('label'    => 'Student ID',//get_vocab('namebooker'),
+  $params = array('label'    => get_vocab('namebooker'),
                   'name'     => 'name',
                   'field'    => 'entry.name',
                   'value'    => $value,
@@ -397,7 +397,7 @@ function get_field_start_time($value, $disabled=false)
 }
 
 
-function get_field_end_time($value, $disabled=false)
+function get_field_end_time($value, $disabled=true)
 {
   global $areas, $area_id;
   global $multiday_allowed;
@@ -1740,4 +1740,5 @@ $form->render();
 
 
 output_trailer();
+
 

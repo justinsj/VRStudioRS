@@ -1087,7 +1087,9 @@ table#colour_key {clear: both; float: left; border-spacing: 0; border-collapse: 
     color: <?php echo $colour_key_font_color ?>;
     border: <?php echo $main_table_cell_border_width ?>px solid <?php echo $main_table_body_h_border_color ?>}
 #colour_key td#row_padding {border-right: 0; border-bottom: 0}
-
+#colour_key {
+  display: none;
+}
 form#header_search {
   display: inline-block;
 }
@@ -1268,7 +1270,9 @@ div#trailer {
   clear: left;
   margin-top: 1.0em; margin-bottom: 1.5em;
   padding-top: 0.3em; padding-bottom: 0.3em;
+  display: none;
 }
+
 
 #trailer div {
   float: left;
@@ -1312,6 +1316,7 @@ div#simple_trailer {
   text-align: center;
   padding-top: 1.0em;
   padding-bottom: 2.0em;
+  display: none;
 }
 
 #simple_trailer a {
@@ -1472,3 +1477,4 @@ a.dt-button {
 div#check_tabs {background-image: none}
 .edit_entry #ui-tab-dialog-close {position:absolute; right:0; top:23px}
 .edit_entry #ui-tab-dialog-close a {float:none; padding:0}
+
